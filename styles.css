@@ -8,6 +8,8 @@ body {
   display: flex; flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  height: 4rem;
+ 
 }
 .N2 {
     display: flex; flex-direction: row;
@@ -18,20 +20,20 @@ body {
 .N2 div {
     display: flex; flex-direction: row;
     justify-content: start;
-    width: 90%;
-    padding: 25px;
+    align-items: center;
     color: white;  
-    font-size: 30px;  
+    font-size: 30px; 
+    margin-right: 2rem; 
 }
-#SET {
-    width: 10%; background-color: rgb(176, 127, 255); height: 100%; padding: 30px; font-size: 20px;
+#SET {display:flex; align-items: center;
+    width: 10%; background-color: rgb(176, 127, 255); height: 100%; padding: 30px; font-size: 40px;
 }
 img{
     width: 30px; height: 30px;
  }
 .Im1 div{
     width: 10%; height: 10%; display: flex; flex-direction: row;
-        justify-content: left;
+        justify-content: left; align-self: center;
      }
      .Im2 div{
         width: 10%; height: 10%; display: flex; flex-direction: row;
